@@ -1,0 +1,15 @@
+:root { color-scheme: light; font-family: ui-sans-serif, system-ui, sans-serif; color: #1c211d; background: #f7f6f1; }
+body { margin: 0; }
+main { max-width: 760px; margin: 0 auto; padding: 8vh 24px; }
+.eyebrow { color: #4c684d; font-size: .78rem; font-weight: 700; letter-spacing: .14em; }
+h1 { max-width: 700px; font-size: clamp(2.8rem, 8vw, 5.2rem); line-height: .95; margin: .2rem 0 1.3rem; letter-spacing: -.06em; }
+.intro { max-width: 620px; font-size: 1.15rem; line-height: 1.55; }
+label { display: block; font-weight: 700; margin: 2.5rem 0 .5rem; }
+textarea { box-sizing: border-box; width: 100%; resize: vertical; border: 1px solid #a5aa9e; border-radius: 8px; padding: 16px; background: #fffefa; color: inherit; font: inherit; line-height: 1.5; }
+.actions { display: flex; flex-wrap: wrap; align-items: center; gap: 16px; margin-top: 14px; }
+button { border: 0; border-radius: 6px; background: #1e4b32; color: white; padding: 12px 18px; font: inherit; font-weight: 700; cursor: pointer; }
+.toggle { margin: 0; font-size: .9rem; font-weight: 500; }
+#result { margin-top: 36px; padding: 24px; border: 1px solid #b7c2b1; border-radius: 10px; background: #edf2ea; }
+.score { font-size: 3rem; font-weight: 800; margin: 0; }.score span { font-size: 1.2rem; font-weight: 500; }
+li { margin: 12px 0; line-height: 1.5; }.note { margin-top: 36px; color: #5e665d; font-size: .9rem; }
+@media (max-width: 520px) { main { padding: 48px 18px; } }

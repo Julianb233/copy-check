@@ -1,0 +1,9 @@
+{
+  "name": "copy-check",
+  "version": "0.1.0",
+  "private": false,
+  "type": "module",
+  "description": "Private-by-default, deterministic copy quality checks.",
+  "scripts": { "test": "node --test", "check": "node --check src/core.mjs && node --check src/app.mjs" },
+  "license": "MIT"
+}

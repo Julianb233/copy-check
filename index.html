@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="Private-by-default checks for AI-assisted copy.">
+    <title>Copy Check</title>
+    <link rel="stylesheet" href="./src/styles.css">
+  </head>
+  <body>
+    <main>
+      <p class="eyebrow">COPY CHECK · BETA</p>
+      <h1>Review the copy before it ships.</h1>
+      <p class="intro">This score is a deterministic writing heuristic, not an AI detector. Your text stays in this browser.</p>
+      <label for="copy">Draft to review</label>
+      <textarea id="copy" rows="12" placeholder="Paste a landing-page section, email, README, or script."></textarea>
+      <div class="actions">
+        <button id="check" type="button">Check copy</button>
+        <label class="toggle"><input id="allow-proof" type="checkbox"> Verified proof is reviewed, not penalized</label>
+      </div>
+      <section id="result" aria-live="polite" hidden></section>
+      <p class="note">No account. No storage. No model call. Check the underlying rules and MIT attribution in the repository.</p>
+    </main>
+    <script type="module" src="./src/app.mjs"></script>
+  </body>
+</html>
